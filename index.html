@@ -4,26 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toxic Doberman Artwork</title>
+	<style>
+      :root{--primary:#0F2729;--bg:#1A5558;--surface:#fff;--border:#56A1A1;--text:#fffbf7;--muted:#6f5c84;}
+      *{box-sizing:border-box;}
+      body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;position:relative;overflow-x:hidden;}
+      header{background:var(--lilac);color:#fff;padding:2rem 1rem;text-align:center;}
+      header h1{margin:0;font-size:clamp(1.8rem,2.5vw,2.8rem);}
+      main{max-width:900px;margin:2rem auto;padding:0 1rem 6rem;}
+      .hero{display:grid;gap:1rem;padding:1.5rem;background:#fcf8ff;border:1px solid #f0e8fb;border-radius:20px;}
+      .hero h2{margin:0;font-size:clamp(1.5rem,2vw,2.2rem);}
+      .hero small{color:var(--muted);line-height:1.6;}
+      .card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:1.5rem;margin-top:1.5rem;box-shadow:0 18px 40px rgba(68,23,126,.08);}
+      .card h2{margin-top:0;}
+      nav{margin-top:1.5rem;}
+      nav a{display:inline-block;margin-right:1rem;padding:.75rem 1rem;border-radius:999px;text-decoration:none;font-weight:600;color:var(--lilac);border:1px solid var(--lilac);background:#fff;transition:transform .2s ease;}
+      nav a:hover{transform:translateY(-2px);}
+      footer{position:fixed;left:0;right:0;bottom:0;background:#f7f3fb;color:#333;text-align:center;padding:.75rem 0;border-top:1px solid rgba(0,0,0,.08);font-size:.95rem;}
+      footer a{color:var(--lilac);text-decoration:none;margin:0 .5rem;}
+      footer a:hover{text-decoration:underline;}
+    </style>
 </head>
 	<body>
 		<header>
 		<h1>Artwork Showcase</h1>
 		</header>
+		<section class="hero">
 		<main>
+		
+		 <nav>
+          <a href="officialart.html">Shop</a>
+		 </nav>
+		
 		<h2>Welcome to Toxic Doberman Artwork</h2>
         <small>Discover original sketches, collections, and prints curated by Toxic Doberman.</small>
+		</section>
+		
+		<section class="card">
 		<p>Welcome to the showcase. Visit the shop to buy original artwork and prints.</p>
-
+		<nav>
+          <a href="officialart.html">Shop</a>
+        </nav>
         <div>
           <h2>About The Artist</h2>
           <p>The artist has been drawing since 2019 and is quickly improving every year. The artist now wishes to get commissions and seel their artworks! If you are interested please contact the Artist via: 
 		  <a href="mailto:Commission@://Toxic_Doberman_Dras@yahoo.com">Email</a>
+		  <a href="mailto:Commission@://Toxic_Doberman_Dras@yahoo.com" 
+			target="_blank" 
+			style="display: inline-block; background-color: #56A1A1; color: #FFFFFF; font-family: sans-serif; font-weight: bold; text-decoration: none; padding: 12px 24px; border-radius: 4px; transition: background-color 0.2s;">
+			Email
+		  </a>
 		  <a href="https://discordapp.com/1363685668043358389/" 
 			target="_blank" 
 			style="display: inline-block; background-color: #56A1A1; color: #FFFFFF; font-family: sans-serif; font-weight: bold; text-decoration: none; padding: 12px 24px; border-radius: 4px; transition: background-color 0.2s;">
-   Discord
-</a>
+			Discord
+		  </a>
 		  </p>
+		 </div>
+		 </section>
 		</main>
 		<footer>© Toxic Doberman</footer>
 	</body>
